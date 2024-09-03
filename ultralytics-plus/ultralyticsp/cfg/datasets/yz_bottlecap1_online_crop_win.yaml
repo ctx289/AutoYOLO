@@ -1,0 +1,20 @@
+# coco format
+
+path: D:\ryanwfu\data\YZ_BOTTLECAP1\annotations
+train: train_no_prefix.json 
+val: val_no_prefix.json
+test: val_no_prefix.json
+
+train_prefix: 'D:\ryanwfu\data'
+val_prefix: 'D:\ryanwfu\data'
+test_prefix: 'D:\ryanwfu\data'
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: True
+roi_key: 'outer'
+
+# Classes
+names:
+  0: YZPG1_ZW

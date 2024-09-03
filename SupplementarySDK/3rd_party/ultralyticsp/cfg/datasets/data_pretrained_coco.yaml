@@ -1,0 +1,135 @@
+# coco format
+
+path: /
+train: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train.json
+val: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train.json
+test: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: False
+roi_key: 'outer'
+
+# Classes
+names:
+  0: YZPG1_ZW
+  1: YZPG2_ZW
+  2: Inclusoes
+  3: Rechupe
+  4: Chip
+  5: PistonMiss
+  6: Porosity
+  7: RCS
+  8: Defect-A
+  9: Defect-B
+  10: Defect-C
+  11: Defect-D
+  12: defect
+  13: NS_BYKP
+  14: NS_JGMKP
+  15: HS
+  16: ZW
+  17: lack
+  18: impurity
+  19: gb
+  20: SY2_RD
+  21: SY2_D
+  22: SY2_DCU
+  23: SY2_QB
+  24: SY2_YA
+  25: SY2_MA
+  26: SY2_HP
+  27: SY2_YH
+  28: SY2_MD
+  29: SY2_ZW
+  30: LFSIM_BD
+  31: LFSIM_GS
+  32: LFSIM_QJ
+  33: LFSIM_BM
+  34: LFSIM_LX
+  35: LFSIM_MD
+  36: LFSIM_YS
+  37: LFSIM_YJ
+  38: LFSIM_DD
+  39: LFSIM_ZW
+  40: WATCHANO_3dLY
+  41: WATCHANO_SJJC
+  42: WATCHANO_RTDW
+  43: WATCHANO_3dPS
+  44: WATCHANO_3dHS
+  45: WATCHANO_3dYS
+  46: WATCHANO_3dDW
+  47: WATCHANO_LZC
+  48: WATCHANO_RTPS
+  49: WATCHANO_RTHS
+  50: WATCHANO_RTYS
+  51: WATCHANO_SJYIS
+  52: WATCHANO_3dSJMB
+  53: WATCHANO_YSA
+  54: WATCHANO_SJYS
+  55: WATCHANO_SJDW
+  56: WATCHANO_QJ
+  57: WATCHANO_3dYIS
+  58: WATCHANO_PSBJ
+  59: WATCHANO_3dPH
+  60: WATCHANO_GM
+  61: WATCHANO_ZW
+  62: WATCHANO_YW
+  63: FCRCAM_LW
+  64: FCRCAM_YS
+  65: FCRCAM_QL
+  66: FCRCAM_ZL
+  67: FCRCAM_LY
+  68: FCRCAM_ZW
+  69: FCRCAM_RJW
+  70: FCRCAM_LIUW
+  71: FCRCAM_YW
+  72: FCRCAM_HS
+  73: ZJCJ_LDYS
+  74: ZJCJ_WJG
+  75: ZJCJ_LDPY
+  76: ZJCJ_AYS
+  77: ZJCJ_ZL
+  78: ZJCJ_LD
+  79: ZJCJ_YS
+  80: ZJCJ_HS
+  81: ZJCJ_RJW
+  82: ZJCJ_LY
+  83: ZJCJ_HBY
+  84: ZJCJ_YW
+  85: ZJCJ_ZW
+  86: FSKD8X_YS
+  87: FSKD8X_YIS
+  88: FSKD8X_CS
+  89: FSKD8X_HS
+  90: FSKD8X_YW
+  91: FSKD8X_BY
+  92: FSKD8X_DM
+  93: FSKD8X_DYI
+  94: FSKD8X_DH
+  95: FSKD8X_QK
+  96: FSKD8X_ZW
+  97: FSKD8X_DYW
+  98: FSKD8X_YKCHS
+  99: FSKD8X_SPAX
+  100: LKMAC_HS
+  101: LKMAC_PS
+  102: LKMAC_DW
+  103: LKMAC_ZW
+  104: LKMAC_YW
+  105: LKMAC_YS
+  106: LKMAC_BD
+  107: LKMAC_MSJB
+  108: LKMAC_HX
+  109: LKMAC_LH
+  110: LKMAC_GM
+  111: LKMAC_YIS
+  112: LKMAC_PH
+  113: LKMAC_YH
+  114: LKMAC_LD
+  115: LKMAC_WL

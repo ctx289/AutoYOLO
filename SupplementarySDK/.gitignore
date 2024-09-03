@@ -1,0 +1,17 @@
+*ipynb_checkpoints
+__pycache__
+*.pyc
+rpfs/
+*.csv
+./temp_info
+./rpfs
+start.sh
+.vscode
+ppl_config.py
+calib_config.py
+.idea/
+cudnn-linux-x86_64-8.8.0.121_cuda11-archive/
+model_dir/
+pip/
+pip_ultralytics/
+pip_ipython/

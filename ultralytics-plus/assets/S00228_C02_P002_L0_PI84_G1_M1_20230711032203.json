@@ -1,0 +1,26 @@
+{
+  "version": "5.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "outer",
+      "points": [
+        [
+          234.64285714285717,
+          188.78571428571428
+        ],
+        [
+          1003.6904761904763,
+          704.2619047619048
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "S00228_C02_P002_L0_PI84_G1_M1_20230711032203.png",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1280
+}

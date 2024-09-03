@@ -1,0 +1,21 @@
+# coco format
+
+path: /youtu/xlab-team4/ryanwfu/29_Project-3C-Win/data-win-tiaoi/YZ_BOTTLECAP1/annotations
+train: train.json 
+val: val.json  
+test: val.json
+
+train_prefix: '/youtu/xlab-team4/ryanwfu/29_Project-3C-Win/data-win-tiaoi'
+val_prefix: '/youtu/xlab-team4/ryanwfu/29_Project-3C-Win/data-win-tiaoi'
+test_prefix: '/youtu/xlab-team4/ryanwfu/29_Project-3C-Win/data-win-tiaoi'
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: True
+roi_key: 'crop_info'
+roi_offset: 0.05
+
+# Classes
+names:
+  0: YZPG1_ZW

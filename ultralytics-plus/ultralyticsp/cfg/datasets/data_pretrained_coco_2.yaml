@@ -1,0 +1,109 @@
+# coco format
+
+path: /
+train: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train_2.json
+val: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train_2.json
+test: /youtu/xlab-team4/ryanwfu/31_pretrained_model/train_2.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: False
+roi_key: 'outer'
+
+# Classes
+names:
+  0: YZPG1_ZW
+  1: YZPG2_ZW
+  2: Inclusoes
+  3: Rechupe
+  4: Chip
+  5: PistonMiss
+  6: Porosity
+  7: RCS
+  8: defect
+  9: DefectA
+  10: DefectB
+  11: DefectC
+  12: DefectD
+  13: NS_BYKP
+  14: NS_JGMKP
+  15: HS
+  16: ZW
+  17: lack
+  18: impurity
+  19: gb
+  20: SY2_RD
+  21: SY2_D
+  22: SY2_DCU
+  23: SY2_QB
+  24: SY2_YA
+  25: SY2_MA
+  26: SY2_HP
+  27: SY2_YH
+  28: SY2_MD
+  29: SY2_ZW
+  30: WATCHANO_3dLY
+  31: WATCHANO_SJJC
+  32: WATCHANO_RTDW
+  33: WATCHANO_3dPS
+  34: WATCHANO_3dHS
+  35: WATCHANO_3dYS
+  36: WATCHANO_3dDW
+  37: WATCHANO_LZC
+  38: WATCHANO_RTPS
+  39: WATCHANO_RTHS
+  40: WATCHANO_RTYS
+  41: WATCHANO_SJYIS
+  42: WATCHANO_3dSJMB
+  43: WATCHANO_YSA
+  44: WATCHANO_SJYS
+  45: WATCHANO_SJDW
+  46: WATCHANO_QJ
+  47: WATCHANO_3dYIS
+  48: WATCHANO_PSBJ
+  49: WATCHANO_3dPH
+  50: WATCHANO_GM
+  51: WATCHANO_ZW
+  52: WATCHANO_YW
+  53: FCRCAM_LW
+  54: FCRCAM_YS
+  55: FCRCAM_QL
+  56: FCRCAM_ZL
+  57: FCRCAM_LY
+  58: FCRCAM_ZW
+  59: FCRCAM_RJW
+  60: FCRCAM_LIUW
+  61: FCRCAM_YW
+  62: FCRCAM_HS
+  63: ZJCJ_LDYS
+  64: ZJCJ_WJG
+  65: ZJCJ_LDPY
+  66: ZJCJ_AYS
+  67: ZJCJ_ZL
+  68: ZJCJ_LD
+  69: ZJCJ_YS
+  70: ZJCJ_HS
+  71: ZJCJ_RJW
+  72: ZJCJ_LY
+  73: ZJCJ_HBY
+  74: ZJCJ_YW
+  75: ZJCJ_ZW
+  76: FSKD8X_YS
+  77: FSKD8X_YIS
+  78: FSKD8X_CS
+  79: FSKD8X_HS
+  80: FSKD8X_YW
+  81: FSKD8X_BY
+  82: FSKD8X_DM
+  83: FSKD8X_DYI
+  84: FSKD8X_DH
+  85: FSKD8X_QK
+  86: FSKD8X_ZW
+  87: FSKD8X_DYW
+  88: FSKD8X_YKCHS
+  89: FSKD8X_SPAX

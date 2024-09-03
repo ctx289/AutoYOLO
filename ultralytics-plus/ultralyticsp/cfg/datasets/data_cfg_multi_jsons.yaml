@@ -1,0 +1,15 @@
+path: /
+train:
+- /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP2/annotations/train.json
+- /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP2/annotations/train.json
+val: /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP2/annotations/val.json
+test: /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP2/annotations/val.json
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+coco_format_json: true
+allow_empty: true
+roi_crop: false
+roi_key: outer
+names:
+  0: YZPG2_ZW

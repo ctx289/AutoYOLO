@@ -1,0 +1,21 @@
+# coco format
+
+path: /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations
+train: [/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json, 
+        /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/badcase_yolo.json]
+val: val.json  
+test: /youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: True
+roi_key: 'outer'
+
+# Classes
+names:
+  0: YZPG1_ZW

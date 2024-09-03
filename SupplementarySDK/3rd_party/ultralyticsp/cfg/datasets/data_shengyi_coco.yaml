@@ -1,0 +1,29 @@
+# coco format
+
+path: /
+train: /youtu/xlab-team4/share/datasets/Defects/ShengYi/annotations/train.json
+val: /youtu/xlab-team4/share/datasets/Defects/ShengYi/annotations/val.json
+test: /youtu/xlab-team4/share/datasets/Defects/ShengYi/annotations/val.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: False
+roi_key: 'outer'
+
+# Classes
+names:
+  0: SY2_RD
+  1: SY2_D
+  2: SY2_DCU
+  3: SY2_QB
+  4: SY2_YA
+  5: SY2_MA
+  6: SY2_HP
+  7: SY2_YH
+  8: SY2_MD
+  9: SY2_ZW

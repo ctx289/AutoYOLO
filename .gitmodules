@@ -1,0 +1,6 @@
+[submodule "SupplementarySDK"]
+	path = SupplementarySDK
+	url = https://git.woa.com/ryanwfu/SupplementarySDK.git
+[submodule "ultralytics-plus"]
+	path = ultralytics-plus
+	url = https://git.woa.com/YoutuIndustrialAI/tiaoi-algos/ultralytics-plus.git

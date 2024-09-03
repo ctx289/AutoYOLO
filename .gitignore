@@ -1,0 +1,11 @@
+*ipynb_checkpoints
+__pycache__
+*.pyc
+rpfs/
+*.csv
+start.sh
+.vscode
+.idea/
+runs
+vis/
+work_dir*/

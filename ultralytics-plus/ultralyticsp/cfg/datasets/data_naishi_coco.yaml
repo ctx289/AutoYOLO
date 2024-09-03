@@ -1,0 +1,21 @@
+# coco format
+
+path: /
+train: /youtu/xlab-team4/share/datasets/Defects/NaiShi/annotations/train.json
+val: /youtu/xlab-team4/share/datasets/Defects/NaiShi/annotations/val.json
+test: /youtu/xlab-team4/share/datasets/Defects/NaiShi/annotations/val.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: False
+roi_key: 'outer'
+
+# Classes
+names:
+  0: NS_BYKP
+  1: NS_JGMKP

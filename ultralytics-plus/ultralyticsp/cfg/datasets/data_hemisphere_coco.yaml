@@ -1,0 +1,23 @@
+# coco format
+
+path: /youtu/xlab-team4/share/datasets/VISION-TIAOI/TIAOI_1.6.1/hemisphere
+train: annotations/train.json
+val: annotations/val.json
+test: annotations/val.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: False
+roi_key: 'crop_info'
+
+# Classes
+names:
+  0: DefectA
+  1: DefectB
+  2: DefectC
+  3: DefectD

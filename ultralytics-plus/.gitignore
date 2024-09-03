@@ -1,0 +1,12 @@
+*ipynb_checkpoints
+__pycache__
+*.pyc
+rpfs/
+*.csv
+.vscode
+.idea/
+runs
+*.pt
+vis/
+start.sh
+youtu_ti_fuxi_industry.json

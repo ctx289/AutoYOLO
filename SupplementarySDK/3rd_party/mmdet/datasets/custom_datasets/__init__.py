@@ -1,0 +1,3 @@
+from .tongda_datasets import TongdaCocoDataset
+from .tongda_datasets_lw import TongdaCocoDatasetLW
+from .tongda_datasets_lw_smallig import TongdaCocoDatasetLWSmallig

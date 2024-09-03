@@ -1,0 +1,3 @@
+from .attr_bbox_head import Shared2FCBBoxHead, Shared4Conv1FCBBoxHead
+from .attr_standardroihead import SingleAttrStandardRoIHead
+from .attr_cascaderoihead import SingleAttrCascadeRoIHead

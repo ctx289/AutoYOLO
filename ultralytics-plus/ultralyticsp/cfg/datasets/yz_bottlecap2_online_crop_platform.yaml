@@ -1,0 +1,21 @@
+# coco format
+# coco format
+
+path: /youtu/industry_td2/FormalEnv/Engine/SceneLib/46
+train: train/2023-10-24~16-58-28.699252006_fix.json
+val: evaluate/2023-10-24~16-59-15.120547617_fix.json
+test: evaluate/2023-10-24~16-59-15.120547617_fix.json
+
+train_prefix: ''
+val_prefix: ''
+test_prefix: ''
+
+# Custom
+coco_format_json: True
+allow_empty: True
+roi_crop: True
+roi_key: 'crop_info'
+
+# Classes
+names:
+  0: YZPG2_ZW

@@ -26,9 +26,9 @@ git submodule update
 
 ```
 WORK_DIR=./work_dir
-TRAIN_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json
-VAL_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
-TEST_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
+TRAIN_JSON=/annotations/train.json
+VAL_JSON=/annotations/val.json
+TEST_JSON=/annotations/val.json
 
 sh ./exec.sh $WORK_DIR $TRAIN_JSON $VAL_JSON $TEST_JSON
 ```
@@ -38,9 +38,9 @@ ps: source命令在当前shell环境中执行脚本，而bash/sh命令在新的s
 
 ```
 WORK_DIR=./work_dir
-TRAIN_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json
-VAL_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
-TEST_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
+TRAIN_JSON=/annotations/train.json
+VAL_JSON=/annotations/val.json
+TEST_JSON=/annotations/val.json
 
 sh train.sh $WORK_DIR $TRAIN_JSON $VAL_JSON $TEST_JSON
 ```
@@ -49,9 +49,9 @@ sh train.sh $WORK_DIR $TRAIN_JSON $VAL_JSON $TEST_JSON
 
 ```
 WORK_DIR=./work_dir
-TRAIN_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json
-VAL_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
-TEST_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
+TRAIN_JSON=/annotations/train.json
+VAL_JSON=/annotations/val.json
+TEST_JSON=/annotations/val.json
 
 sh export.sh $WORK_DIR $TRAIN_JSON $VAL_JSON $TEST_JSON
 ```
@@ -62,9 +62,9 @@ sh export.sh $WORK_DIR $TRAIN_JSON $VAL_JSON $TEST_JSON
 
 ```
 WORK_DIR=./work_dir
-TRAIN_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json,/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json
-VAL_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json,/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json
-TEST_JSON=/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/val.json,/youtu/xlab-team4/share/datasets/YZ_BOTTLECAP1/annotations/train.json
+TRAIN_JSON=/annotations/train.json
+VAL_JSON=/annotations/val.json
+TEST_JSON=/annotations/val.json
 ```
 
 ### 模型训练配置
